@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-box{
+            background-color: black;
+            height: 1000px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .ball1,
+        .ball2,
+        .ball3,
+        .ball4,
+        .ball5{
+            height: 100px;
+            width: 100px;
+            background-color: gold;
+            border-radius: 50%;
+            margin-left: 20px;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+        }
+        .ball1{
+            animation-name: devils;
+        }
+        @keyframes devils{
+            0%{
+                background-color: gold;
+                margin-top: 0px;
+            }
+            50%{
+                background-color: aqua;
+                margin-top: -50px;
+            }
+            100%{
+                background-color: gold;
+                margin-top: 0px;
+            }
+        }
+        .ball2{
+            animation-name: devil;
+        }
+        @keyframes devil{
+             0%{
+                background-color: rgb(52, 7, 250);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(247, 77, 9);
+                margin-top: -150px;
+            }
+            100%{
+                background-color: rgb(8, 24, 245);
+                margin-top: 0px;
+            }
+        }
+        .ball3{
+            animation-name: devil3;
+        }
+        @keyframes devil3{
+             0%{
+                background-color: rgb(243, 148, 148);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(9, 245, 60);
+                margin-top: -250px;
+            }
+            100%{
+                background-color: rgb(238, 145, 157);
+                margin-top: 0px;
+            }
+        }
+        .ball4{
+            animation-name: devil4;
+        }
+        @keyframes devil4{
+             0%{
+                background-color: rgb(5, 99, 122);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(30, 38, 110);
+                margin-top: -150px;
+            }
+            100%{
+                background-color: rgb(26, 83, 100);
+                margin-top: 0px;
+            }
+        }
+        .ball5{
+            animation-name: devil5;
+        }
+        @keyframes devil5{
+             0%{
+                background-color: rgb(255, 7, 243);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(250, 167, 129);
+                margin-top: -50px;
+            }
+            100%{
+                background-color: rgb(252, 10, 252);
+                margin-top: 0px;
+            }
+        }
+
+   @media(max-width:767px){
+            .main-box{
+            background-color: black;
+            height: 1000px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .ball1,
+        .ball2,
+        .ball3,
+        .ball4,
+        .ball5{
+            height: 100px;
+            width: 100px;
+            background-color: gold;
+            border-radius: 50%;
+            margin-left: 20px;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+        }
+        .ball1{
+            animation-name: devils;
+        }
+        @keyframes devils{
+            0%{
+                background-color: gold;
+                margin-top: 0px;
+            }
+            50%{
+                background-color: aqua;
+                margin-top: -50px;
+            }
+            100%{
+                background-color: gold;
+                margin-top: 0px;
+            }
+        }
+        .ball2{
+            animation-name: devil;
+        }
+        @keyframes devil{
+             0%{
+                background-color: rgb(52, 7, 250);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(247, 77, 9);
+                margin-top: -150px;
+            }
+            100%{
+                background-color: rgb(8, 24, 245);
+                margin-top: 0px;
+            }
+        }
+        .ball3{
+            animation-name: devil3;
+        }
+        @keyframes devil3{
+             0%{
+                background-color: rgb(243, 148, 148);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(9, 245, 60);
+                margin-top: -250px;
+            }
+            100%{
+                background-color: rgb(238, 145, 157);
+                margin-top: 0px;
+            }
+        }
+        .ball4{
+            animation-name: devil4;
+        }
+        @keyframes devil4{
+             0%{
+                background-color: rgb(5, 99, 122);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(30, 38, 110);
+                margin-top: -150px;
+            }
+            100%{
+                background-color: rgb(26, 83, 100);
+                margin-top: 0px;
+            }
+        }
+        .ball5{
+            animation-name: devil5;
+        }
+        @keyframes devil5{
+             0%{
+                background-color: rgb(255, 7, 243);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(250, 167, 129);
+                margin-top: -50px;
+            }
+            100%{
+                background-color: rgb(252, 10, 252);
+                margin-top: 0px;
+            }
+        }
+    }
+
+    @media screen (min-width:200px) and (max-width:500px)
+     {
+        .main-box{
+            background-color: black;
+            height: 1000px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .ball1,
+        .ball2,
+        .ball3,
+        .ball4,
+        .ball5{
+            height: 10px;
+            width: 10px;
+            background-color: gold;
+            border-radius: 50%;
+            margin-left: 2px;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+        }
+        .ball1{
+            animation-name: devils;
+        }
+        @keyframes devils{
+            0%{
+                background-color: gold;
+                margin-top: 0px;
+            }
+            50%{
+                background-color: aqua;
+                margin-top: -50px;
+            }
+            100%{
+                background-color: gold;
+                margin-top: 0px;
+            }
+        }
+        .ball2{
+            animation-name: devil;
+        }
+        @keyframes devil{
+             0%{
+                background-color: rgb(52, 7, 250);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(247, 77, 9);
+                margin-top: -150px;
+            }
+            100%{
+                background-color: rgb(8, 24, 245);
+                margin-top: 0px;
+            }
+        }
+        .ball3{
+            animation-name: devil3;
+        }
+        @keyframes devil3{
+             0%{
+                background-color: rgb(243, 148, 148);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(9, 245, 60);
+                margin-top: -250px;
+            }
+            100%{
+                background-color: rgb(238, 145, 157);
+                margin-top: 0px;
+            }
+        }
+        .ball4{
+            animation-name: devil4;
+        }
+        @keyframes devil4{
+             0%{
+                background-color: rgb(5, 99, 122);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(30, 38, 110);
+                margin-top: -150px;
+            }
+            100%{
+                background-color: rgb(26, 83, 100);
+                margin-top: 0px;
+            }
+        }
+        .ball5{
+            animation-name: devil5;
+        }
+        @keyframes devil5{
+             0%{
+                background-color: rgb(255, 7, 243);
+                margin-top: 0px;
+            }
+            50%{
+                background-color: rgb(250, 167, 129);
+                margin-top: -50px;
+            }
+            100%{
+                background-color: rgb(252, 10, 252);
+                margin-top: 0px;
+            }    
+         }
+        }
+
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main-box">
+        <div class="ball1"></div>
+        <div class="ball2"></div>
+        <div class="ball3"></div>
+        <div class="ball4"></div>
+        <div class="ball5"></div>
+    </div>
+
+</body>
+</html>
